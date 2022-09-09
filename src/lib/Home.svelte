@@ -21,7 +21,7 @@
         How is it working?
       </h2>
       <p class="text-gray-500 md:mt-4 md:block">
-        You can create your own fake post with our system. So how? Click on <b>"Create post"</b> at the top. Then fill in the sections on the side of the page that appears and press the <b>"Create"</b> button. And it finished. Making fake posts is that easy.
+        You can create your own fake post with our system. So how? Click on <b>"Create post"</b> at the top. Then fill in the sections on the side of the page that appears. <br> And it finished. Making fake posts is that easy.
       </p>
     </div>
   </div>
