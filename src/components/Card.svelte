@@ -23,7 +23,7 @@
         <svg class="float-right ml-60" aria-label="Save" color="rgb(0,0,0)" fill="rgb(0,0,0)" height="24" role="img" viewBox="0 0 24 24" width="24"><title>Save</title><polygon fill="none" points="20 21 12 13.44 4 21 4 3 20 3 20 21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polygon></svg>
     </div>
     <div>
-        <p class="m-2 font-bold text-sm text-black/70">{likeCount > 1000 ? likeCount.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") : likeCount} likes</p>
+        <p class="m-2 font-bold text-sm text-black">{likeCount > 1000 ? likeCount.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") : likeCount} likes</p>
         <p class="text-black m-2 relative -top-1 text-sm">{username} <span class="text-black/70">{content}</span></p>
         <p class="text-black/50 m-2 relative -top-2 text-sm">see all {commentsCount} comment</p>
         <p class="text-black/50 m-2 relative -top-3 text-sm">Add a comment... <span class="float-right"><svg aria-label="İfade Simgesi" class="relative top-1.5 opacity-50" color="rgb(0,0,0)" fill="rgb(0,0,0)" height="13" role="img" viewBox="0 0 24 24" width="13"><title>İfade Simgesi</title><path d="M15.83 10.997a1.167 1.167 0 1 0 1.167 1.167 1.167 1.167 0 0 0-1.167-1.167Zm-6.5 1.167a1.167 1.167 0 1 0-1.166 1.167 1.167 1.167 0 0 0 1.166-1.167Zm5.163 3.24a3.406 3.406 0 0 1-4.982.007 1 1 0 1 0-1.557 1.256 5.397 5.397 0 0 0 8.09 0 1 1 0 0 0-1.55-1.263ZM12 .503a11.5 11.5 0 1 0 11.5 11.5A11.513 11.513 0 0 0 12 .503Zm0 21a9.5 9.5 0 1 1 9.5-9.5 9.51 9.51 0 0 1-9.5 9.5Z"></path></svg></span></p>
